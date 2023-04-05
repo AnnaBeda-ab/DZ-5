@@ -10,8 +10,10 @@ public class Main {
         sum1 = ++sum1;
         sum2 -= 2;
         System.out.println(sum1 > sum2);
+        //7. Виводить true якщо хоча б одна сума кратна 2, інакше - false.
         int ev1 = sum1 % 2;
         int ev2 = sum2 % 2;
-        System.out.println(ev1 != ev2);
+        System.out.println(ev1 != ev2); //1варіант
+        System.out.println(sum1%2==1 || sum2%2==1); //2варіант
     }
 }
