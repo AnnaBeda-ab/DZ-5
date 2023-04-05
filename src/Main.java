@@ -14,6 +14,6 @@ public class Main {
         int ev1 = sum1 % 2;
         int ev2 = sum2 % 2;
         System.out.println(ev1 != ev2); //1варіант
-        System.out.println(sum1%2==1 || sum2%2==1); //2варіант
+        System.out.println(sum1%2==0 || sum2%2==0); //2варіант
     }
 }
